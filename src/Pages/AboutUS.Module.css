@@ -1,0 +1,448 @@
+circle{
+    stroke:#FFC5D0;
+    size: 1rem;
+}
+
+.mainBackGround{
+    opacity: 0.3;
+    position: relative;
+    /* top: 8rem;
+    left: 0vw; */
+    width:100%;
+    height:auto;
+    margin-top: 40px;
+  }
+
+.title{
+    position: relative;
+    /* top: 23vw; */
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 900;
+
+    margin-top: -370px;
+    color: #2E424D;
+}
+
+.title2{
+    position: relative;
+    /* top: 20vw; */
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+    color: #5B8291;
+}
+
+/* .b{
+    --delay:0.5s;
+}
+.c{
+    --delay:.8s;
+}
+.a{
+    --duration:1s;
+}
+.a span{
+    --total:calc(var(--duration) +var(--delay));
+    position: relative;
+    display: block;
+    color: transparent;
+    overflow: hidden;
+    animation: revealText 5s var(--total) forwards;
+}
+.a span::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: #bb93fc;
+    animation: rollIn var(--duration) var(--delay) forwards,rollOut var(--duration) var(--total) forwards;
+}
+.a span:nth-child(2)::after{
+    border-top: 3px solid #896ab9;
+}
+@keyframes revealText{
+    to{
+        color: rgb(0, 0, 0);
+    }
+}
+@keyframes rollIn{
+    from{
+        transform: scaleX(0);
+    }
+    to{
+        transform: scaleX(1);
+    }
+}
+@keyframes rollOut{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(105%);
+    }
+} */
+
+.goal{
+    position: relative;
+    background-color: #5B8291;
+    margin: 0vw;
+    /* bottom: -40vw; */
+    margin-top: 350px;
+    width: 50%;
+    height: 200px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
+}
+
+.title3{
+    position: relative;
+    text-align: left;
+    margin-left: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.txt{
+    position: relative;
+    text-align: left;
+    color: rgb(179, 179, 179);
+    margin-left: 20px;
+    /* padding: 30px; */
+}
+
+.stat{
+    position: relative;
+    /* bottom: -43vw;
+    left: 50%; */
+    margin-top: -250px;
+    width: 50%;
+    height: 425px;
+    margin-left: calc(100% - 650px);
+    /* border: 1px solid red; */
+    /* padding: 0; */
+}
+
+.pic1{
+    /* margin-left: -18px; */
+    position: relative;
+    /* top: 0px; */
+    /* left: -7rem; */
+}
+.userNum{
+    position: relative;
+    top: -5rem;
+    left: 1rem;
+    font-size: 33px;
+    font-weight: 900;
+    color: rgb(82, 203, 190);
+}
+.userTxt{
+    position: relative;
+    /* top: -2rem; */
+    left: -4rem;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(82, 203, 190);
+    display:inline-block ;
+}
+
+.pic2{
+    position: relative;
+    /* top: 0px; */
+    right: 40px;
+}
+
+.workNum{
+    position: relative;
+    top: -5rem;
+    left: -1rem;
+    font-size: 33px;
+    font-weight: 900;
+    color: rgb(255, 199, 48);
+}
+
+.workTxt{
+    position: relative;
+    /* top: 80px; */
+    left: -5rem;
+    display: inline-block;
+
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(255, 199, 48);
+}
+
+.pic3{
+    position: relative;
+    top: 30px;
+    right: -20px;
+}
+
+.orderNum{
+    position: relative;
+    top: -3rem;
+    left: 3rem;
+    font-size: 33px;
+    font-weight: 900;
+    color: rgb(255, 89, 105);
+}
+
+.orderTxt{
+    position: relative;
+    top: 2rem;
+    left: -1rem;
+
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(255, 89, 105);
+    display: inline-block;
+}
+
+/* ----------------woman------------- */
+.wo{
+    position: relative;
+    bottom: 10vw;
+    left: 11vw;
+
+    font-size: 3vw;
+    color: #FFC5D0;
+    font-weight: 900;
+}
+.man{
+    position: relative;
+    bottom: 10vw;
+    left: 11vw;
+
+    font-size: 3vw;
+    color: #a4e8e0;
+    font-weight: 900;
+}
+
+.gender{
+    position: relative;
+    bottom: 20vw;
+    left: 27vw;
+
+    font-size: 1.5vw;
+    color: #2E424D;
+    font-weight: 900;
+    display: inline-block;
+}
+.sqMan{
+    position: relative;
+    bottom: 16.5vw;
+    left: 77vw;
+
+    border: 1px solid #a4e8e0;
+    background-color: #a4e8e0;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+.male{
+    position: relative;
+    bottom: 18vw;
+    left: 33vw;
+
+    color: #a4e8e0;
+    font-weight: 900;
+    font-size: 1.5vw;
+}
+
+.sqWoman{
+    position: relative;
+    bottom: 16.5vw;
+    left: 77vw;
+
+    border: 1px solid #FFC5D0;
+    background-color: #FFC5D0;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+.female{
+    position: relative;
+    bottom: 18vw;
+    left: 33.5vw;
+
+    color: #FFC5D0;
+    font-weight: 900;
+    font-size: 1.5vw;
+}
+
+.MF{
+    position: relative;
+    bottom: 35vw;
+    left: 0vw;
+    opacity: 0.2;
+    width: 30%;
+    height: 40%;
+    display: block;
+}
+.stat2{
+    position: relative;
+    bottom: 20vw;
+    left: 0vw;
+
+    font-size: 2vw;
+    font-weight: 900;
+    color: #2E424D;
+}
+
+.bar{
+    position: relative;
+    bottom: 20vw;
+    left: 0vw;
+    width: 80%;
+    margin: auto;
+}
+
+ @media(max-width:1220px){
+    .goal{
+    /* margin-top: 100px; */
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    }
+    /* .title,.title2{
+        top: 30vw;
+     }*/
+    .title3,.txt{
+        text-align: center;
+    } 
+    .stat{
+        margin-top:5rem;
+        /* margin-bottom: 0rem; */
+        width: 100%;
+        /* left: 0px; */
+        /* border: 1px solid red; */
+        margin-left: 0;
+    }
+    .pic1{
+    left: -5vw;
+    }
+    .userNum{
+        left: -2vw;
+    }
+    .userTxt{
+        left: -9vw;
+    }
+    .pic2{
+    left: -7vw;
+    }
+    .pic3{
+    top: 0px;
+    }
+    .orderNum{
+        top: -7vw;
+    }
+    .orderTxt{
+        top: 0vw;
+    }
+}
+
+@media(max-width:853px){
+    .stat{
+        align-items: center;
+        /* margin-left: 10%; */
+        width: 100%;
+    }
+}
+
+@media (max-width:700px) {
+    .title{
+        margin-top: -200px;
+    }
+}
+/* @media(max-width:665px){
+    .stat{
+        margin-left: 30%;
+        width: 60%;
+    }
+    .pic1,.pic2,.pic3{
+        left: 0;
+    }
+    .userNum,.workNum{
+        left: 10px;
+    }
+    .userTxt,.workTxt{
+        left: -50px;
+    }
+    .orderNum{
+    top: -12vw;
+    left: 20px;
+    }
+    .orderTxt{
+    left: -30px;
+    }
+
+} */
+
+@media (max-width:853px) { 
+    .stat{
+        overflow: hidden;
+        height: auto;
+    }
+    .pic1, .userNum, .userTxt{
+        margin: auto;
+        display: block;
+    }
+    .userNum{
+        margin-left: 150px;
+        margin-top: -40px;
+    }
+    .userTxt{
+        margin-left: 300px;
+        margin-top: -40px;
+    }
+
+    .pic2, .workNum, .workTxt{
+        margin: auto;
+        margin-top: 50px;
+        display: block;
+        left: auto;
+    }
+    .workNum{
+        margin-left: 150px;
+        margin-top: -40px;
+    }
+    .workTxt{
+        margin-left: 150px;
+        margin-top: -40px;
+    }
+
+    .pic3, .orderNum, .orderTxt{
+        margin: auto;
+        margin-top: 50px;
+        display: block;
+        /* left: auto; */
+        right: 20px;
+        /* left: auto; */
+
+    }
+    .orderNum{
+        margin-left: 100px;
+        margin-top: -80px;
+    }
+    .orderTxt{
+        margin-left: 250px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:500px) { 
+    .title{
+        font-size: 20px;
+    }
+    .title2{
+        font-size: 15px;
+    }
+}

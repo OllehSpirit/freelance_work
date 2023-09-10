@@ -1,0 +1,576 @@
+/* .allProf{
+    margin-top: -250px;
+    width: 22%;
+    border: 1px solid red;
+} */
+
+.profile{
+    /* position: relative;
+    top: 00px; */
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    /* top: 180px;
+    left: 80px; */
+    /* left: -530px; */
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.vertical{
+    position: absolute;
+    top: 180px;
+    left: 300px;
+    border-left: 1px solid #dddddd;
+    height: 400px;
+}
+
+.header{
+    position: relative;
+    /* top: 140px;
+    left: 350px; */
+
+    color: #2E424D;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+}
+
+.table{
+    position: relative;
+    /* top: 200px;
+    left: 350px; */
+    right: -30%;
+    width: 700px;
+}
+td{
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+}
+
+.bold{
+    font-weight: 600;
+    width: auto;
+    /* border: 1px solid red; */
+}
+
+/* .editFName{
+    position: absolute;
+    top: 215px;
+    right: 300px;
+
+    border: 1px solid #55324a;
+    border-radius: 7px;
+    background-color: white;
+    color: #55324a;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.editLName{
+    position: absolute;
+    top: 280px;
+    right: 300px;
+
+    border: 1px solid #55324a;
+    border-radius: 7px;
+    background-color: white;
+    color: #55324a;
+    padding: 5px;
+    cursor: pointer;
+} */
+
+/* .editEmail{
+    position: absolute;
+    top: 340px;
+    right: 300px;
+
+    border: 1px solid #55324a;
+    border-radius: 7px;
+    background-color: white;
+    color: #55324a;
+    padding: 5px;
+    cursor: pointer;
+} */
+.number{
+    position: relative;
+    /* top: 390px;
+    right: 300px; */
+    top: 25px;
+    right: 200px;
+}
+.editNumber{
+    
+
+    border: 1px solid #2E424D;
+    border-radius: 7px;
+    background-color: white;
+    color: #2E424D;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+    /* margin-top: auto; */
+    /* left: 100px; */
+}
+.newNumber{
+    position: relative;
+    /* margin-right: 200px; */
+    /* top: 385px;
+    left: 550px; */
+    right: 0px;
+    top: -35px;
+    visibility: hidden;
+}
+.newNumber input{
+    margin: 10px;
+    width: 300px;
+    border-radius: 20px;
+}
+.newNumber button{
+    margin: 10px;
+
+    border: none;
+    border-radius: 7px;
+    background-color: #2E424D;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.newNumber button:hover{
+    background-color: #5B8291;
+}
+
+.editPasswd{
+    position: relative;
+    /* top: 550px;
+    right: 555px; */
+    top: -170px;
+    left: 110px;
+    /* margin-top: -500px; */
+
+    border: 1px solid #2E424D;
+    border-radius: 7px;
+    background-color: white;
+    color: #2E424D;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.addComment{
+    margin: 40px;
+    margin-left: 0;
+    border-radius: 20px;
+    width: 150%;
+}
+
+.addCommentBtn{
+    position: absolute;
+    top: 550px;
+    left: 900px;
+
+    border-radius: 20px;
+    border-color: #2E424D;
+    padding: 10px;
+    background-color: white;
+    color: #2E424D;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.comments{
+    position: relative;
+    /* top: 650px;
+    left: 350px; */
+    left: 25%;
+
+    width: 626.967px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    text-align: left;
+    color: black;
+    font-size: 18px;
+    
+}
+
+/* .editBirth{
+    position: absolute;
+    top: 460px;
+    right: 300px;
+
+    border: 1px solid #55324a;
+    border-radius: 7px;
+    background-color: white;
+    color: #55324a;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.editGender{
+    position: absolute;
+    top: 520px;
+    right: 300px;
+
+    border: 1px solid #55324a;
+    border-radius: 7px;
+    background-color: white;
+    color: #55324a;
+    padding: 5px;
+    cursor: pointer;
+} */
+
+/* .newEmail{
+    position: absolute;
+    top: 330px;
+    right: 290px;
+    visibility: hidden;
+}
+.newEmailInput{
+    margin: 10px;
+    width: 200px;
+    border-radius: 20px;
+}
+.newEmail button{
+    margin: 10px;
+
+    border: none;
+    border-radius: 7px;
+    background-color: #55324a;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.newEmail button:hover{
+    background-color: #a5608e;
+}
+
+.editEmailInput{
+    position: relative;
+    top: 0;
+    right: 0;
+    margin: 10px;
+
+    border: none;
+    border-radius: 7px;
+    background-color: #55324a;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.editEmailInput:hover{
+    background-color: #a5608e;
+} */
+
+
+.newPasswd{
+    position: absolute;
+    top: 540px;
+    left: 500px;
+    visibility: hidden;
+}
+.newPasswd input{
+    margin: 10px;
+    width: 140px;
+    border-radius: 20px;
+}
+.newPasswd button{
+    margin: 10px;
+
+    border: none;
+    border-radius: 7px;
+    background-color: #2E424D;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.newPasswd button:hover{
+    background-color: #5B8291;
+}
+.invalid{
+    color: red;
+    font-weight: 900;
+    visibility: hidden;
+}
+.invalid2{
+    position: relative;
+    top: -35px;
+    right: -300px;
+    color: red;
+    font-weight: 900;
+    visibility: hidden;
+}
+
+.header2{
+    position: absolute;
+    top: 490px;
+    left: 90px;
+
+    color: whitesmoke;
+    background-color: #2E424D;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+
+    border: 1px solid #2E424D;
+    border-radius: 10px;
+}
+.header2:hover{
+    background-color:#5B8291;
+}
+
+.header3{
+    position: absolute;
+    top: 490px;
+    left:40px;
+
+    color: whitesmoke;
+    background-color: #2E424D;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+
+    border: 1px solid #2E424D;
+    border-radius: 10px;
+}
+.header3:hover{
+    background-color:#5B8291;
+}
+
+.divName{
+    position: absolute;
+    top: 340px;
+    width: 22%;
+}
+
+.name{
+    text-align: center;
+    color: #2E424D;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.image {
+    position: absolute;
+    width: 15%;
+    /* height: 5%; */
+    
+    top: 415px;
+    left: 50px;
+
+    cursor: pointer;
+    box-shadow: 0px 1px 5px #2E424D;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    color: #2E424D;
+    overflow: hidden;
+    padding: 10px;
+    /* padding-bottom: 10px; */
+  }
+  
+  .image:hover{
+    background-color: #5B8291;
+    color: #dddddd;
+
+  }
+  .uploadChange{
+    position: absolute;
+    top: 450px;
+    left: 117px;
+
+    color: whitesmoke;
+    background-color: #2E424D;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+
+    border: 1px solid #2E424D;
+    border-radius: 10px;
+    display: none;
+}
+.uploadChange:hover{
+    background-color:#5B8291;
+}
+
+@media (max-width:1000px) {
+    .profile{
+        position: absolute;
+        margin: auto;
+        left: auto;
+        right: auto;
+        top: 120px;
+        left: 20%;
+    }
+    .image{
+        position: absolute;
+        left: 40%;
+        margin-top: -200px;
+    }
+    .header2{
+        margin: auto;
+        left: 57%;
+        margin-top: -290px;
+    }
+    .header3{
+        margin: auto;
+        left: 40%;
+        margin-top: -290px;
+    }
+    .divName{
+        left: 40%;
+        margin-top: -220px;
+    }
+    .table{
+        /* margin: auto; */
+        margin-top: 150px;
+        left: 20%;
+    }
+    .header{
+        top: 150px;
+    }
+    .vertical{
+        height: 0;
+    }
+    .comments{
+        margin-top: 180px;
+        left: 20%;
+    }
+    .addCommentBtn{
+        top: 700px;
+        left: 700px;
+    }
+    .editPasswd{
+        top: 550px;
+        right: 20px;
+    }
+    .uploadChange{
+        top: 255px;
+        left: 44%;
+    }
+    .editPasswd{
+        top: -170px;
+        left: 80px;
+    }
+    .newPasswd{
+        top: 670px;
+        left: 300px;
+    }
+}
+
+@media (max-width:880px) {
+    .profile{
+        top:170px;
+    }
+    .divName{
+        margin-top: -160px;
+    }
+    .image{
+        margin-top: -150px;
+    }
+    .header2{
+        margin-top: -230px;
+    }
+    .editPasswd{
+        top: 585px;
+    }
+    .uploadChange{
+        top: 310px;
+        left: 44%;
+    }
+    .editPasswd{
+        top: -170px;
+        left: 115px;
+    }
+    .newPasswd{
+        top: 715px;
+        left: 300px;
+    }
+}
+
+@media (max-width:770px) {
+    .comments{
+        left: 0;
+    }
+}
+
+@media (max-width:730px) {
+    .divName{
+        width: 200px;
+        left: 45%;
+    }
+    .image{
+        left: 45%;
+    }
+    .uploadChange{
+        left: 50%;
+    }
+    .header2{
+        left: 62%;
+    }
+}
+
+@media (max-width:590px) {
+    .divName{
+        width: 200px;
+        left: 55%;
+    }
+    .image{
+        margin-top: -165px;
+        left: 55%;
+    }
+    .uploadChange{
+        left: 60%;
+    }
+    .header2{
+        left: 72%;
+    }
+    .table{
+        left: 0%;
+    }
+    .newNumber input{
+        width: 100px;
+    }
+    .newNumber{
+        right: 20px;
+    }
+    .newPasswd{
+        top: 650px;
+    }
+    
+}
+
+
+@media (max-width:439px) {
+    .header2{
+        font-size: 20px;
+    }
+    .newNumber{
+        margin-right: 100px;
+    }
+    .newPasswd{
+        left: 100px;
+        top: 670px;
+    }
+    .editNumber{
+        margin-right: 200px;
+    }
+}
+
+@media (max-width:430px) {
+    .profile{
+        visibility: hidden;
+    }
+    .divName{
+        left: 30%;
+    }
+    .image{
+        left: 30%;
+    }
+    .header2{
+        left: 50%;
+    }
+    .uploadChange{
+        left: 40%;
+    }
+}

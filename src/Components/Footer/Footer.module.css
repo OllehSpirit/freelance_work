@@ -1,0 +1,145 @@
+.foo{
+    /* background-image: linear-gradient(10deg, #330046 , #814e71 ); */
+  background-image: linear-gradient(180deg, #5B8291 , #98DAD9 );
+
+    /* background-color: #55324a; */
+    padding: 40px;
+    padding-top: 20px;
+    padding-left: calc(100% - 1000px);
+   
+    /* position: absolute;
+    bottom: 0px; */
+
+    width: 100%;
+    /* height: 200px; */
+    overflow: hidden;
+    
+  }
+
+  .fooSpan b{
+    position: relative;
+    bottom: 0px;
+    right: calc(100% - 750px);
+
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    /* color: black; */
+    /* border: 1px solid red; */
+  }
+  
+  .socialdetails1{
+    position: relative;
+    bottom: 20px;
+    right: calc(100% - 890px);
+  
+    width: 50px;
+    height: 50px;
+    /* margin-bottom: 100px; */
+  }
+  
+  .socialdetails2{
+    position: relative;
+    bottom: 20px;
+    right: calc(100% - 820px);
+
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+  }
+  
+  .socialdetails3{
+    position: relative;
+    bottom: 20px;
+    right: calc(100% - 750px);
+  
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+  }
+  
+  .socialdetails4{
+    position: relative;
+    bottom: 20px;
+    right: calc(100% - 680px);
+
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+  }
+  
+  .socialdetails5{
+   position: relative;
+   bottom: 20px;
+   right: calc(100% - 610px);
+  
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+  }
+
+  @media (max-width:650px){
+    .fooSpan b{
+      right: calc(100% - 450px);
+    }
+    .socialdetails1{
+      right: calc(100% - 580px);
+    }
+    .socialdetails2{
+      right: calc(100% - 510px);
+    }
+    .socialdetails3{
+      right: calc(100% - 450px);
+    }
+    .socialdetails4{
+      right: calc(100% - 390px);
+    }
+    .socialdetails5{
+      right: calc(100% - 330px);
+    }
+  }
+
+@media (max-width:585px){
+  .fooSpan b{
+    right: calc(100% - 400px);
+  }
+  .socialdetails1{
+    right: calc(100% - 520px);
+  }
+  .socialdetails2{
+    right: calc(100% - 443px);
+  }
+  .socialdetails3{
+    right: calc(100% - 370px);
+  }
+  .socialdetails4{
+    right: calc(100% - 300px);
+  }
+  .socialdetails5{
+    right: calc(100% - 500px);
+    bottom: 100px;
+  }
+}
+
+@media (max-width:463px){
+  .fooSpan b{
+    right: calc(100% - 340px);
+  }
+  .socialdetails1{
+    right: calc(100% - 420px);
+  }
+  .socialdetails2{
+    right: calc(100% - 343px);
+  }
+  .socialdetails3{
+    right: calc(100% - 270px);
+  }
+  .socialdetails4{
+    right: calc(100% - 470px);
+    bottom: 100px;
+  }
+  .socialdetails5{
+    right: calc(100% - 400px);
+    bottom: 100px;
+  }
+}

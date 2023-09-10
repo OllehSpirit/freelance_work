@@ -1,0 +1,267 @@
+.logo{
+  position: absolute;
+  top: 0;
+  left: 70px;
+
+  width: 100px;
+}
+
+.IntroMainNavigation{
+    font-family: courier;
+    font-size: 300%;
+    position: relative;
+    top: 0;
+    padding: 20px;
+    padding-left: 40px;
+    margin: 0;
+    padding-left: 170px;
+    
+    font-family: Serif ;
+    text-align:left;
+    color: #ffff ;
+    /* background-color: #55324a; */
+    /* background-image: linear-gradient(10deg, #330046 , #814e71 ); */
+    background-image: linear-gradient(10deg, #2E424D , #5B8291 );
+
+    
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0px 0 20px #55324a;
+  }
+
+  header input{
+    position: relative;
+    right: 10px;
+    top: 80px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  header ul{
+    position: relative;
+    top: -80px;
+    /* left: 500px; */
+    left: calc(100% - 700px);
+    color: #f3cfe7;
+    list-style: none;
+    display: flex;
+    width: calc(100% - 90px);
+    /* border: 1px solid red; */
+  }
+  
+  header li{
+    margin: 0px;
+    margin-left: 30px;
+    font-size: 21px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #f3cfe7
+  }
+  
+  header a:hover,
+  header a:active,
+  header a.active {
+    color: white;
+  }
+  
+
+  .notif {
+    background-color: #98DAD9;
+    color: white;
+    border-radius: 12px;
+    padding: 0 1rem;
+    margin-left: 0.5rem;
+  }
+
+  .profile{
+    position: absolute;
+    top: 50px;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 20px;
+  }
+
+  .profileBorder{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    margin: 10px;
+    border:1px solid #5B8291 ;
+    border-radius: 10px;
+    height: 100px;
+    width: 200px;
+    background-color: rgba(212, 212, 212, 0.712);
+    
+    box-shadow: 0 3px 10px #5B8291;
+    visibility: hidden;
+  }
+
+  .prof{
+    color: azure;
+    font-weight: 500;
+    padding: 10px;
+    margin: 8px;
+    display: block;
+    
+    background-color: #5B8291;
+    border: 0px;
+    border-radius: 30px;
+
+    font-size: medium;
+    width: 70%;
+    position: absolute;
+    right: 12%;
+    cursor: pointer;
+  }
+.prof:hover{
+    background-color: #98DAD9;
+}
+
+.logOut{
+    color: azure;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    
+    background-color: #5B8291;
+    border: 0px;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: medium;
+    width: 60%;
+
+    position: absolute;
+    right: 18%;
+    top: 45%;
+    cursor: pointer;
+
+}
+
+.logOut:hover{
+    background-color: #98DAD9;
+}
+
+/* @media (max-width : 1300px){
+  .IntroMainNavigation{
+    font-size: 250%;
+  }
+
+  header ul{
+   
+    left: 170vh;
+    color: #f3cfe7;
+    width: 400vh;
+    border: 1px solid red;
+  }
+
+  header li{
+    margin-left: 10vh;
+    font-size: 1rem;
+  }
+
+
+}
+
+@media (max-width : 1220px){
+  .IntroMainNavigation{
+    font-size: 150%;
+  }
+
+  header ul{
+    left: 100vh;
+  }
+
+}
+
+@media (max-width : 1020px){
+  .IntroMainNavigation{
+    font-size: 150%;
+  }
+
+  header ul{
+    left: 60vh;
+  }
+
+}
+
+@media (max-width : 890px){
+
+} */
+
+@media (max-width:1220px){
+  .IntroMainNavigation{
+    font-size: 200%;
+  }
+
+  header ul{
+    width: 50%;
+    left: 50%;
+  }
+
+  header li{
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .notif{
+    padding: 0 0.1rem;
+  }
+}
+
+@media (max-width:880px){
+  .IntroMainNavigation{
+    height: 150px;
+    text-align: center;
+  }
+  header ul{
+    width: 200%;
+    left: 30%;
+    /* margin: auto; */
+  }
+
+  header li{
+    font-size: 14px;
+    margin-left: 50px;
+  }
+  .profile{
+    top: 100px;
+  }
+  .notif{
+    padding: 0 0rem;
+    margin-left: 1px;
+  }
+  
+  .profileBorder{
+    margin-top: 55px;
+  }
+}
+
+@media (max-width:690px){
+  header li{
+    margin-left: 10px;
+  }
+}
+
+@media (max-width:470px){
+  .IntroMainNavigation{
+    font-size: 150%;
+  }
+  .logo{
+    width: 70px;
+  }
+  header ul{
+    width: 200%;
+    left: 20%;
+    /* margin: auto; */
+  }
+
+  header li{
+    font-size: 14px;
+    margin-left: 10px;
+  }
+}

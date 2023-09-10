@@ -1,0 +1,213 @@
+*{
+    color: #55324a;
+    text-align: center;
+  }
+  
+  .form {
+    position: relative;
+    /* top: 130px;
+    left: 20%; */
+  
+    padding: 10px;
+    width: 60%;
+    /* height: 900px; */
+    margin: auto;
+    margin-bottom: 50px;
+  
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px #2E424D;
+  
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .h1{
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    color: #2E424D;
+    /* top: -15px; */
+  }
+  
+.titleExist{
+  font-size: 15px;
+  position: relative;
+  /* top: -15px; */
+  margin: 0;
+  color: red;
+  font-weight: 900;
+}
+
+  .title input,.image input ,.address input ,.description input{
+    
+    font: inherit;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 80%;
+    height: 25%;
+    position: relative;
+    /* left: 20px;
+    top: -5px; */
+    font-weight: bold;
+    margin: 10px;
+    font-weight: 900;
+  }
+
+  .description textarea{
+    font: inherit;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: auto;
+    width: 80%; 
+    font-weight: 900;
+    position: relative;
+    /* top: -5px; */
+  }
+
+  .title label,.image label ,.address label ,.description label{
+      font-size: 15px;
+      font-weight: 900;
+      position: relative;
+      /* top: -10px; */
+  }
+
+  .image {
+    position: relative;
+    width: 25%;
+    height: 40px;
+    /* top: 10px;
+   left: 0px; */
+
+   cursor: pointer;
+   box-shadow: 0px 1px 5px #55324a;
+   display: inline-block;
+   background-color: rgb(255, 255, 255);
+   border-radius: 20px;
+   color: #55324a;
+   overflow: hidden;
+   padding: 10px;
+  }
+  
+  .image:hover{
+    background-color: #b3a2ad;
+  }
+
+.cv{
+  position: relative;
+  /* left: 10%;
+  top: 280px; */
+
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.cv div{
+  text-align: left;
+  position: relative;
+  /* left: 0px; */
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.cv2{
+    position: relative;
+  /* left: 10%;
+  top: 420px; */
+
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.cv2 label{
+    position: relative;
+    /* left: 00px;*/
+    top: -10px; 
+    /* left: 40px; */
+}
+
+.gov{
+  position: relative;
+  /* left: 2.5%;
+  top: 435px; */
+
+  margin: 20px;
+  border-radius: 10px;
+  width: 90%;
+}
+
+  
+
+  .btn {
+    cursor: pointer;
+    background-color: #2E424D;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    margin: 40px;
+    border: 1px solid #2E424D;
+    border-radius: 4px;
+    font-weight: bold;
+
+    position: relative;
+    /* top: 810px;
+    left: 300px; */
+  }
+  
+  .btn:hover,
+  .btn:active {
+    background-color: #5B8291;
+    border-color: #5B8291;
+  }
+
+  .title input{
+      position: relative;
+      left: 20px;
+  }
+
+  .image input{
+    position: relative;
+    left: 15px;
+}
+
+  .address input{
+    position: relative;
+    left: 10px;
+}
+
+.description label{
+    position: relative;
+    top: -50px;
+}
+
+.priceDetails{
+  position: absolute;
+  top: 730px;
+  left: 80px;
+
+  font-size: 20px;
+  padding: 5px;
+  width: 80%;
+  font-weight: 900;
+  border-radius: 10px;
+  border: 1px solid #7a7a7a;
+}
+
+@media (max-width:1103px){
+  .form{
+    box-shadow: 0 0 0;
+    width: 100%;
+    margin-top: -20px;
+  }
+}
+@media (max-width:768px){
+  .box{
+    margin: 25px;
+  }
+}
